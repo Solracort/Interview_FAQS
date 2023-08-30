@@ -1,0 +1,71 @@
+.simon-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 800px;
+  height: 800px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border: 30px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+.btn-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+.image-rotate {
+  transform: rotate(-45deg);
+}
+img{
+  width: 50%;
+}
+.angularImg{
+  width: 40%;
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.bgMenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgHtml{
+  background-color: rgba(255,109,0);
+}
+.bgCss{
+  background-color: rgb(3,155,229);
+}
+.bgJs{
+  background-color: rgb(247,223,30);
+}
+.bgAngular{
+  background-color: rgb(179,21,35);
+}
+.center-circle {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-color: white;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
