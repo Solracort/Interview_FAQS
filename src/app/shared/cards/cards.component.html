@@ -1,54 +1,29 @@
-<div class="simon-game" >
-  <div class="btn-container" *ngFor="let item of menuItem">
-    <a [routerLink]="item.route">
-      <div class="btn bgMenu bgHtml">
-        <img
-          class="image-rotate"
-          mat-card-image
-          src="../../../assets/images/html.png"
-          alt="logoHtml"
-        />
-      </div>
-    </a>
-    <a [routerLink]="item.route">
-      <div class="btn bgMenu bgCss">
-        <img
-          class="image-rotate"
-          mat-card-image
-          src="../../../assets/images/css.png"
-          alt="logoCss"
-        />
-      </div>
-    </a>
-    <a [routerLink]="item.route">
-      <div class="btn bgMenu bgJs">
-        <img
-          class="image-rotate"
-          mat-card-image
-          src="../../../assets/images/javascript.png"
-          alt="logoJavascript"
-        />
-      </div>
-    </a>
-    <a [routerLink]="item.route">
-      <div class="btn bgMenu bgAngular">
-        <img
-          class="image-rotate angularImg"
-          mat-card-image
-          src="../../../assets/images/angular.png"
-          alt="logoAngular"
-        />
-      </div>
-    </a>
+<div class="container" >
+  <div class="btn-container" >
+    <ng-container *ngFor="let item of menuItem">
+      <a [routerLink]="item.route">
+        <div class="btn" [ngClass]="'bgMenu ' + item.class">
+          <img
+            class="image-rotate"
+            mat-card-image
+            [src]="item.imageSrc"
+            [alt]="item.alt"
+          />
+        </div>
+      </a>
+    </ng-container>
   </div>
-  <a>
-    <div class="center-circle">
-      <img
-        class="softImg"
-        mat-card-image
-        src="../../../assets/images/soft-skills.png"
-        alt="logoSoftskills"
-      />
-    </div>
-  </a>
+  <ng-container *ngFor="let softItem of softSkills">
+    <a [routerLink]="softItem.route">
+      <div class="center-circle">
+        <img
+          class="softImg"
+          mat-card-image
+          [src]="softItem.imageSrc"
+          [alt]="softItem.alt"
+        />
+      </div>
+    </a>
+  </ng-container>
+
 </div>
