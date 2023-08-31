@@ -1,0 +1,152 @@
+{
+    "questions" : [
+        {
+            "id" : 21,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "¿Qué es HTML?",
+            "answer" : "HTML es la abreviatura de HyperText Markup Language: es el lenguaje estándar de la World Wide Web. Es un lenguaje de formato de texto estándar usado para crear y mostrar páginas en la Web.  Permite crear la estructura base de una página web mediante pequeñas etiquetas llamadas etiquetas de marcado. HTML no se considera un lenguaje de programación, ya que no puede crear una funcionalidad dinámica."
+        },
+        {
+            "id" : 22,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "¿Qué es una etiqueta HTML? ¿Todas las etiquetas HTML vienen en pares?",
+            "answer" : "Una etiqueta contiene mucha información. Le indica al navegador dónde empieza y dónde termina cada elemento de la página.Suelen llamarse etiquetas de «apertura» y «cierre».No, algunas etiquetas HTML simples,  no necesitan una etiqueta de cierre. Algunos ejemplos son las etiquetas <img> y <br>"
+        },
+        {
+            "id" : 23,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "¿Qué es HTML5? Indica algunas diferencias",
+            "answer" : "HTML5 es la última versión del Lenguaje de Marcado de Hipertexto HTML, que admite multimedia, etiquetas y elementos, mejoras en el marcado de documentos y nuevas API.Las principales diferencias entre ellos son: COMPATIBILIDAD: HTML5 y la mayoría de sus funciones son compatibles con todos los navegadores modernos, sobre todo en audio, video y gráficos, SEMÁNTICA: nuevas etiquetas como etiquetas de video y audio o nuevos elementos de estructura como section, article, aside, header, footer, etc., RAPIDEZ: mucho más rápido, ADAPTACION:adaptación de sitios web en dispositivos móviles..."
+        },
+        {
+            "id" : 24,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "¿Qué Es el HTML Semántico?",
+            "answer" : "El HTML semántico, o también marcado semántico, engloba las etiquetas HTML que transmiten el significado (o semántica) de su contenido o del texto. Por ejemplo, etiquetas como <header>, <article>,<aside>,<section> y <footer> son etiquetas HTML semánticas en cuanto al contenido: indican claramente la funcionalidad de su contenido: son más fáciles de leer y comprender por los buscadores y desarrolladores web,son más accesibles para los lectores con deficiencias visuales y mejoran tu posicionamiento en los buscadores. "
+        },
+        {
+            "id" : 25,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "¿Qué hace un doctype?",
+            "answer" : "DOCTYPE es una abreviación para DOCument TYPE. Un DOCTYPE es siempre asociado a DTD - que significa Definición de tipo de documento, por sus siglas en inglés.Un DTD define cómo se deben estructurar los documentos de cierto tipo (por ejemplo, un button puede contener un span pero no un div), mientras un DOCTYPE declara qué DTD un documento supuestamente respeta (por ejemplo, este documento respeta el DTD de HTML).Para páginas web, se requiere la declaración DOCTYPE. Se utiliza para indicar a los agentes de usuario qué versión de las especificaciones HTML respeta el documento. Una vez que un agente de usuario ha reconocido un DOCTYPE correcto, activará el modo sin peculiaridades haciendo coincidir este DOCTYPE para leer el documento. Si un agente de usuario no reconoce un DOCTYPE correcto, activará el modo con peculiaridades.La declaración DOCTYPE para los estándares HTML5 es <!DOCTYPE html>."
+        },
+        {
+            "id" : 25,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 26,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "¿Cómo se inserta un comentario en HTML?",
+            "answer" : "Los comentarios en HTML empiezan con <!-- y terminan con -->. Ejemplo: <!-- A SAMPLE COMMENT -->"
+        },
+        {
+            "id" : 27,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 28,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 29,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 30,
+            "category" : "HTML",
+            "title" : "Preguntas iniciales en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 31,
+            "category" : "HTML",
+            "title" : "Preguntas iniciales en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 32,
+            "category" : "HTML",
+            "title" : "Preguntas iniciales en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 33,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 34,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 35,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 36,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 37,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 38,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 39,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        },
+        {
+            "id" : 40,
+            "category" : "HTML",
+            "title" : "Preguntas en la entrevista sobre HTML",
+            "question" : "",
+            "answer" : ""
+        }       
+
+    ]
+}
