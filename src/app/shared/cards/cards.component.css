@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 800px;
-  height: 800px;
+  width: 30vw;
+  height: 60vh;
   background-color: black;
   border-radius: 50%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -29,6 +29,9 @@
 img{
   width: 50%;
 }
+.softImg{
+  width: 70%
+}
 .angularImg{
   width: 40%;
 }
@@ -45,21 +48,66 @@ img{
 }
 .bgHtml{
   background-color: rgba(255,109,0);
+  background-image: radial-gradient(rgba(255, 0, 0, 0.496), transparent);
+  background-size: 5px 5px;
+  border: dotted 2px rgba(255,109,0);
+  animation: yellow-animation infinite;
+  box-shadow:
+      0 0 20px #111 inset,
+      0 0 10px rgba(255,109,0);
+  animation: yellow-animation infinite;
+  opacity: 1;
+}
+
+.bgHtml:hover, .bgCss:hover,
+.bgJs:hover, .bgAngular:hover,
+.center-circle:hover{
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3),
+                0 0 30px rgba(255, 255, 255, 0.3),
+                0 0 40px rgba(255, 255, 255, 0.3);
 }
 .bgCss{
   background-color: rgb(3,155,229);
+  background-image: radial-gradient(rgba(0, 0, 255, 0.745), transparent);
+  background-size: 5px 5px;
+  border: dotted 2px rgb(3,155,229);
+  animation: yellow-animation infinite;
+  box-shadow:
+      0 0 20px #111 inset,
+      0 0 10px rgb(3,155,229);
+  animation: yellow-animation infinite;
+  opacity: 1;
 }
+
 .bgJs{
-  background-color: rgb(247,223,30);
+  background: yellow;
+  background-image: radial-gradient(orange, transparent);
+  background-size: 5px 5px;
+  border: dotted 2px yellow;
+  animation: yellow-animation infinite;
+  box-shadow:
+      0 0 20px #111 inset,
+      0 0 10px yellow;
+  animation: yellow-animation infinite;
+  opacity: 1;
 }
 .bgAngular{
   background-color: rgb(179,21,35);
+  background-image: radial-gradient(rgba(255, 0, 0, 0.872), transparent);
+  background-size: 5px 5px;
+  border: dotted 2px rgb(179,21,35);
+  animation: yellow-animation infinite;
+  box-shadow:
+      0 0 20px #111 inset,
+      0 0 10px rgb(179,21,35);
+  animation: yellow-animation infinite;
+  opacity: 1;
 }
 .center-circle {
   position: absolute;
-  width: 30%;
-  height: 30%;
-  background-color: white;
+  width: 40%;
+  height: 40%;
+  background-color: black;
   border-radius: 50%;
   top: 50%;
   left: 50%;
