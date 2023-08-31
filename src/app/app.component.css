@@ -1,0 +1,4 @@
+.simon, .titleImage{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,29 @@
+<div class="container" >
+  <div class="btn-container" >
+    <ng-container *ngFor="let item of menuItem">
+      <a [routerLink]="item.route">
+        <div class="btn" [ngClass]="'bgMenu ' + item.class">
+          <img
+            class="image-rotate"
+            mat-card-image
+            [src]="item.imageSrc"
+            [alt]="item.alt"
+          />
+        </div>
+      </a>
+    </ng-container>
+  </div>
+  <ng-container *ngFor="let softItem of softSkills">
+    <a [routerLink]="softItem.route">
+      <div class="center-circle">
+        <img
+          class="softImg"
+          mat-card-image
+          [src]="softItem.imageSrc"
+          [alt]="softItem.alt"
+        />
+      </div>
+    </a>
+  </ng-container>
+
+</div>
