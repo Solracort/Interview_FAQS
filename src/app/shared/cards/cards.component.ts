@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 interface MenuItem {
   route: string;
   class: string;
+  imgClass: string;
   imageSrc: string;
   alt: string;
 }
@@ -22,18 +23,21 @@ export class CardsComponent {
     {
       route: '/html',
       class: 'bgHtml',
+      imgClass: "imgHtml",
       imageSrc: '../../../assets/images/html.png',
       alt: 'logoHtml',
     },
     {
       route: '/css',
       class: 'bgCss',
+      imgClass: "imgCss",
       imageSrc: '../../../assets/images/css.png',
       alt: 'logoCss',
     },
     {
       route: '/javascript',
       class: 'bgJs',
+      imgClass: "imgJs",
       imageSrc: '../../../assets/images/javascript.png',
       alt: 'logoJs',
     },
@@ -41,6 +45,7 @@ export class CardsComponent {
     {
       route: '/angular',
       class: 'bgAngular',
+      imgClass: "imgAngular",
       imageSrc: '../../../assets/images/angular.png',
       alt: 'logoAngular',
     },
