@@ -1,0 +1,43 @@
+.container{
+    width:100vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+@media screen and (min-width: 720px) {
+    .container{
+        height:70vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:auto;
+        position:fixed;
+        top:22%;
+        left:5%;
+    }
+    .col-1, .col-2, .col-3{
+        height:25%;
+        width:100%;
+       
+    }
+    .tarjeta{
+        height: 100%;
+        
+    }
+    .content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align:justify;
+        align-items: center;
+        height:100%;
+        font-weight: bold;;
+    }
+
+
+}

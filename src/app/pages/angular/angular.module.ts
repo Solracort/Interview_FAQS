@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AngularRoutingModule } from './angular-routing.module';
 import { AngularComponent } from './angular.component';
+import { MaterialModule } from 'src/app/material/material.module';
 
 
 
@@ -12,7 +13,8 @@ import { AngularComponent } from './angular.component';
   ],
   imports: [
     CommonModule,
-    AngularRoutingModule
+    AngularRoutingModule, 
+    MaterialModule,
   ]
 })
 export class AngularModule { }
